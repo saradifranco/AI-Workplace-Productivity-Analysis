@@ -115,10 +115,6 @@ AI-Workplace-Productivity-Analysis/
 
 Contributions are welcome! Please fork the repository and submit a pull request for improvements, bug fixes, or new features.
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Acknowledgments
 
 - Dataset from Kaggle.
