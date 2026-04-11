@@ -62,7 +62,6 @@ Run the notebook cells sequentially to reproduce the analysis.
 ### Exploratory Data Analysis (EDA)
 - Dataset summary: 4,500 rows, 15+ features.
 - Correlation analysis: Weak linear correlations; suggests non-linear relationships.
-- Outlier detection: IQR and Z-score methods.
 - Distribution plots: Target is near-normal; skewed features (e.g., meeting hours) log-transformed.
 
 ### Data Preprocessing
@@ -72,7 +71,7 @@ Run the notebook cells sequentially to reproduce the analysis.
 - Encoding: OneHotEncoder for categoricals (job_role, deadline_pressure_level).
 
 ### Model
-- Algorithm: Random Forest Regressor (n_estimators=100, random_state=42).
+- Algorithm: Random Forest Regressor.
 - Pipeline: Preprocessing + Model.
 - Training: 80% train, 20% test split.
 
@@ -95,7 +94,6 @@ Run the notebook cells sequentially to reproduce the analysis.
 - **Plots:**
   - Correlation heatmap.
   - Feature distributions (original and log-transformed).
-  - Outlier box plots.
   - Feature importance bar chart.
   - SHAP summary and bar plots.
   - Predictions vs. real scatter plot.
@@ -110,10 +108,6 @@ AI-Workplace-Productivity-Analysis/
 ├── requirements.txt                # Python dependencies
 └── README.md                       # This file
 ```
-
-## Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request for improvements, bug fixes, or new features.
 
 ## Acknowledgments
 
